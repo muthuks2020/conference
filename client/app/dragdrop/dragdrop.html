@@ -1,0 +1,57 @@
+<sidebar></sidebar>
+
+<!-- START CONTENT -->
+      <section id="content">
+        
+        <!--breadcrumbs start-->
+        <div id="breadcrumbs-wrapper">
+            <!-- Search for small screen -->
+            <div class="header-search-wrapper grey hide-on-large-only">
+                <i class="mdi-action-search active"></i>
+                <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="Explore Materialize">
+            </div>
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <h5 class="breadcrumbs-title">Drag and Drop on Calendar</h5>
+                <ol class="breadcrumbs">
+                    <li><a href="/">Home</a></li>
+                    <li class="active">Drag&Drop</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--breadcrumbs end-->
+        
+
+        <!--start container-->
+        <div class="container">
+          <div class="section">
+            <p class="caption"></p>
+            <div class="divider"></div>
+            <div id="full-calendar">              
+              <div class="row">
+                <div class="col s12 m4 l3">
+                  <div id='draggeble-events'>    
+                    <h4 class="header">Drage Events</h4>
+                    <div class='red' dragable-event>8 Pack Room</div>
+                    <div class='pink' dragable-event>4 Pack Room</div>
+                    <div class='indigo' dragable-event>Board Room</div>
+                    <div class='cyan' dragable-event>Meeting room 1</div>
+                    <div class='green' dragable-event>Meeting room 2</div>
+                    <div class='yellow' dragable-event>Training room</div>
+                 
+                  </div>
+                </div>
+                <div class="col s12 m8 l9">
+                  <full-calendar id="main-calendar-widget" data-events="draggedEvents"></full-calendar>
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>
+        <!--end container-->
+
+      </section>
+      <!-- END CONTENT -->

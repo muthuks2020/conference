@@ -1,0 +1,56 @@
+/*
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.mss-logo{
+height: 33px !important;
+}
+.rbi-logo{
+height: 47px !important;
+margin: 6px 3px -6px 13px !important;
+}
+.mlb-blue-bg{
+	background: #09548F !important;
+}
+.rbi-mss-login_widget h4{
+	font-size: 31px;
+}
+	.rbi-mss-login_widget .btn{
+		margin: 3px;
+		width: 91%;
+	}
+	.rbi-mss-login_widget li.btn-row{
+		display: inline-block;
+		width: 47%;
+		text-align: center;
+		margin: auto auto 13px auto;
+	}
+	.rbi-mss-login_widget li.register-row{
+		margin: auto 0 auto 13px;
+	}
+	.rbi-mss-login_widget .login-btn{
+		background: #EF3D47;
+	}
+
+	.mss-shares_widget{
+		border: none;
+	}
+	.mss-shares_widget h4{
+	    padding: 9px 0 0 0;
+    	font-weight: bold !important;
+    	font-size: 23px !important;
+	}
+	.mss-shares_widget li{
+		padding: 0 !important;
+		height: 45px;
+		width: 96px;
+		border-radius: 6px;
+		text-align: center;
+		margin: auto;
+	}
+	.mss-shares_widget img{
+		height: 44px;
+    	float: left;
+	}
